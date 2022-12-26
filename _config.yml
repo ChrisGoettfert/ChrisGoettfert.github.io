@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -93,8 +93,6 @@ content:
           Implementation of an automatic framework to investigate eyetracking data in a mirror exposure
         description: | # this will include new lines to allow paragraphs
           Creation of an automated evaluation pipeline in Python to evaluate data of a mirror exposure in a short time. Based on measured body sizes of a test person, areas of interest are automatically generated and fixations on them are measured and visualized. 
-
-
   - title: Experience
     layout: list
     content:
@@ -134,8 +132,6 @@ content:
           Student assistant at the HCI Chair of the University of Würzburg. 
         description: | # this will include new lines to allow paragraphs
          Software development in virtual reality using Unity and conducting subject studies in VR. Collaboration in the projects: [Illusion of Virtual Body Ownership](https://www.hci.uni-wuerzburg.de/projects/ivbo/) and [InjectX - Augmenting Social Behavior](https://www.hci.uni-wuerzburg.de/projects/injectx/)
-
-       
   - title: Education
     layout: list
     content:
@@ -159,7 +155,6 @@ content:
            Introduction to Programming, Algorithms and Data structures, Interactive Computergraphic, Introduction to Human-Computer-Interaction, Research Methods, Statistics, Augmented Reality and User Research
            Bachelor Thesis: Influence of cognitive load on Simulator sickness in a simulated autonomous driving supervised by Prof. Dr. Carolin Wienrich
            Grade: 2.2        
-  - title: A Little 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
