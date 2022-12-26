@@ -50,11 +50,11 @@ orcid_username: 0000-0002-6959-093X
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: christopher_goe.jpg
+about_profile_image: images/christopher_goe.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Christopher Göttfert and I'm currently working as a research assistant at the Human-Computer-Interaction (HCI) and Psychology of intelligent interactive systems (PIIS) Group at the University of Würzburg.  
-  I work in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) Project, which focuses on digital participation in social XR environments. The project is developing and evaluating different solutions for markerless tracking of bodies and faces, as well as participation via different devices.  
-  My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. 
+  Hi, my name is Christopher Göttfert and I'm currently working as a research assistant at the Human-Computer-Interaction (HCI) and Psychology of intelligent interactive systems (PIIS) Group at the University of Würzburg. <br>
+  I work in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) Project, which focuses on digital participation in social XR environments. The project is developing and evaluating different solutions for markerless tracking of bodies and faces, as well as participation via different devices. <br>
+  My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. <br>
   
   Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg, completed an internship as a software developer in VR/AR at the Audi Production Lab and worked as a student employee at TecAlliance in the field of AR development and Machine Learning.  
 
@@ -65,9 +65,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: HiAvA - Scalable Hybrid Avatar-Agents-Technology for Everyday Social Interaction in XR
+        border: weak  
+        title: Research project
         link: https://www.hci.uni-wuerzburg.de/projects/hiava/
         link_text: Development and research
         additional_links:
@@ -78,40 +77,93 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Developing and research of a social XR application. 
+          HiAvA - Scalable Hybrid Avatar-Agents-Technology for Everyday Social Interaction in XR
         description: | # this will include new lines to allow paragraphs
           HiAvA enables a quality leap for diverse collaborative and communicative XR environments of a future cyberspace and allows everyday participation in social VR applications even with limited hardware equipment. The project will develop and evaluate solutions for non-contact tracking of bodies and faces. HiAvA will enable participation in natural social interactions in XR environments, whether user:s use a VR headset, tablet, smartphone, or laptop to participate.
           My responsibilities lie in the development of the platform as well as the impact research of various social XR factors.
+      - layout: left
+        border: weak  
+        title: Student project
+        link: https://downloads.hci.informatik.uni-wuerzburg.de/2022-muc-eyetracking_in_mirror_exposition-preprint.pdf
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/ChrisGoettfert/mirror-exposure-gaze-analyzer
+        quote: >
+          Implementation of an automatic framework to investigate eyetracking data in a mirror exposure
+        description: | # this will include new lines to allow paragraphs
+          Creation of an automated evaluation pipeline in Python to evaluate data of a mirror exposure in a short time. Based on measured body sizes of a test person, areas of interest are automatically generated and fixations on them are measured and visualized. 
+
 
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: University of Würzburg
+        sub_title: Research Assistant
+        caption: November 2021 - present
+        link: https://www.hci.uni-wuerzburg.de/
         quote: >
-          Short description of the company (optional)
+          Research Assistant at the HCI Chair at the University of Würzburg.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Working in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) project and focussing on research about different locomotion techniques and their effect on other participants within a social XR.
+      - layout: left
+        title: TecAlliance
+        sub_title: Working student
+        caption: March 2020 - October 2021
+        link: https://www.tecalliance.net/de/
+        quote: >
+          Working student in the Research & Innovation Team at TecAlliance. 
+        description: | # this will include new lines to allow paragraphs
+          We developed a HoloLens prototype to support automotive mechanics in workshops (https://www.youtube.com/watch?v=gPEBEKCNHH8). Additionally, I worked with different YOLO architectures for image recognition.
+      - layout: left
+        title: Audi
+        sub_title: Internship
+        caption: April 2019 - September 2019
+        link: https://www.audi.de/de/brand/de.html
+        quote: >
+          Internship at Audi Production Lab as a software developer in virtual/augmented reality. 
+        description: | # this will include new lines to allow paragraphs
+         Collaboration in the project: Virtual 3P Workshops in Virtual Reality: https://automanager.tv/?p=13349. Creation of an automated python based data conversion pipeline for CAD data to be used in virtual reality applications. Admission to the Audi Talent Program for students.
+      - layout: left
+        title: Unversity of Würzburg
+        sub_title: Working Student
+        caption: August 2018 - March 2019
+        link: https://www.hci.uni-wuerzburg.de/
+        quote: >
+          Student assistant at the HCI Chair of the University of Würzburg. 
+        description: | # this will include new lines to allow paragraphs
+         Software development in virtual reality using Unity and conducting subject studies in VR. Collaboration in the projects: [Illusion of Virtual Body Ownership](https://www.hci.uni-wuerzburg.de/projects/ivbo/) and [InjectX - Augmenting Social Behavior](https://www.hci.uni-wuerzburg.de/projects/injectx/)
+
+       
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: University of Würzburg
         sub_title: Master of Science
         caption: 2019 - 2022
         quote: >
           Master of Science in Human-Computer-Interaction.
         description: | # this will include new lines to allow paragraphs
-           Principles of real-time interactive systems, Psychology of real-time interactive systems, Machine Learning, Theorys of HCI, Eye-tracking, Advanced methods of data analysis, Networking and Concurrent Programming, 3D User-interfaces, Multimodal Interactions
+           Principles of real-time interactive systems, Psychology of real-time interactive systems, Machine Learning, Theorys of HCI, Eye-tracking, Advanced methods of data analysis, Networking and Concurrent Programming, 3D User-interfaces, Multimodal Interactions.
+           Master Thesis: Stress Generation and Social Ostracism with Teenagers in Virtual Reality - Implementation and Evaluation of an Interactive Therapeutic VR Application supervised by Prof. Dr. Carolin Wienrich and Prof. Dr. Marc Erich Latoschik
+           Grade: 1.3
+      - layout: left
+        title: University of Würzburg
+        sub_title: Bachelor of Science
+        caption: 2015 - 2019
+        quote: >
+          Bachelor of Science in Human-Computer-Systems.
+        description: | # this will include new lines to allow paragraphs
+           Introduction to Programming, Algorithms and Data structures, Interactive Computergraphic, Introduction to Human-Computer-Interaction, Research Methods, Statistics, Augmented Reality and User Research
+           Bachelor Thesis: Influence of cognitive load on Simulator sickness in a simulated autonomous driving supervised by Prof. Dr. Carolin Wienrich
+           Grade: 2.2        
+  - title: A Little 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      During my free time I like to do sports, like soccer or strength training. 
 
 # Footer
 footer_show_references: true
