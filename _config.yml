@@ -1,6 +1,6 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: ChrisGoettfert/ChrisGoettfert.github.io
+favicon: assets/favicon.ico
 
 # Content configuration version
 version: 2
@@ -10,7 +10,7 @@ name: Christopher Göttfert
 title: Research Assistant
 email: Chrisi.Goettfert@gmail.com
 # email_title: Email (Email title override)
-phone: 
+# phone: 
 # phone_title: Phone (Phone title override)
 #website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -50,7 +50,7 @@ orcid_username: 0000-0002-6959-093X
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/christopher_goe.jpg
+about_profile_image: images/le-me.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Christopher Göttfert and I'm currently working as a research assistant at the Human-Computer-Interaction (HCI) and Psychology of intelligent interactive systems (PIIS) Group at the University of Würzburg. <br>
 
@@ -58,7 +58,8 @@ about_content: | # this will include new lines to allow paragraphs
   
   My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. <br>
   
-  Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg, completed an internship as a software developer in VR/AR at the Audi Production Lab and worked as a student employee at TecAlliance in the field of AR development and Machine Learning.  
+  Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg.
+  
 
 
 
@@ -76,7 +77,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           HiAvA enables a quality leap for diverse collaborative and communicative XR environments of a future cyberspace and allows everyday participation in social VR applications even with limited hardware equipment. The project will develop and evaluate solutions for non-contact tracking of bodies and faces. HiAvA will enable participation in natural social interactions in XR environments, when using a VR headset, tablet, smartphone, or laptop to participate.
           
-          My responsibilities lie in the development of the platform as well as the impact research of various social XR factors.
+          My responsibilities lie in the project organization, development of the platform as well as the impact research of various social XR factors.
       - layout: left
         border: weak  
         title: Student project
@@ -84,12 +85,38 @@ content:
           - title:  Github page for project
             icon: fab fa-github
             url: https://github.com/ChrisGoettfert/mirror-exposure-gaze-analyzer
+          - title: Project summary presented at the HCI expo 2021
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=z6zgy7hokIg 
         quote: >
-          Implementation of an automatic framework to investigate eyetracking data in a mirror exposure. 
+          Implementation of an automatic framework to investigate eye-tracking data in a mirror exposure. 
         description: | # this will include new lines to allow paragraphs
           Creation of an automated evaluation pipeline in Python to evaluate data of a mirror exposure in a short time. Based on measured body sizes of a test person, areas of interest are automatically generated and fixations on them are measured and visualized. 
 
-          [Published at the Mensch und Computer 2022](https://downloads.hci.informatik.uni-wuerzburg.de/2022-muc-eyetracking_in_mirror_exposition-preprint.pdf)
+          Published at the Mensch und Computer 2022. Read the [Paper](https://downloads.hci.informatik.uni-wuerzburg.de/2022-muc-eyetracking_in_mirror_exposition-preprint.pdf) here.
+      - layout: left
+        border: weak  
+        title: Work project
+        additional_links:
+          - title: Teaser video of the developed HoloLens application
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=gPEBEKCNHH8
+        quote: >
+          Implementation of an Unity application for the HoloLens2 to support automotive mechanics in workshops. 
+        description: | # this will include new lines to allow paragraphs
+          Development of an Unity application to support mechanics in a workshop scenario. We used computer vision to recognize parts, text recognition to read out codes, and various interaction options and user interfaces. 
+      - layout: left
+        border: weak  
+        title: Student project
+        additional_links:
+          - title: Teaser video of my application for the 3D User Interfaces course
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=wwXwdwRLo9U
+        quote: >
+          Implementation of an Unity VR for the Oculus Rift with basic VR interaction modalities. 
+        description: | # this will include new lines to allow paragraphs
+
+
   - title: Experience
     layout: list
     content:
@@ -110,7 +137,7 @@ content:
         quote: >
           Working student in the Research & Innovation Team at TecAlliance. 
         description: | # this will include new lines to allow paragraphs
-          We developed a [HoloLens prototype](https://www.youtube.com/watch?v=gPEBEKCNHH8) to support automotive mechanics in workshops. Additionally, I worked with different YOLO architectures for image recognition.
+          HoloLens2 development & machine learning e.g. YOLO and image recognition
       - layout: left
         title: Audi
         sub_title: Internship
@@ -155,7 +182,8 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      During my free time I like to do sports, like soccer or strength training. 
+      During my free time I like to do sports, like soccer or strength training. I also enjoy a cold beer while having interesting and insightful conversations. 
+
 
 # Footer
 footer_show_references: true
