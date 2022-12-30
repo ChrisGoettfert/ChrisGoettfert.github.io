@@ -70,8 +70,8 @@ content:
       - layout: left
         border: weak  
         title: HiAvA
-        subtitle: Resaerch project @ JMU Würzburg
         link: https://www.hci.uni-wuerzburg.de/projects/hiava/
+        title_link: Research project @ JMU Würzburg
         quote: >
           HiAvA - Scalable Hybrid Avatar-Agents-Technology for Everyday Social Interaction in XR
         description: | # this will include new lines to allow paragraphs
@@ -81,7 +81,7 @@ content:
       - layout: left
         border: weak  
         title: Mirror Exposure Gaze Analyzer
-        subtitle: Student project
+        title_link: Student project
         additional_links:
           - title:  Github page for project
             icon: fab fa-github
@@ -94,11 +94,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Creation of an automated evaluation pipeline in Python to evaluate data of a mirror exposure in a short time. Based on measured body sizes of a test person, areas of interest are automatically generated and fixations on them are measured and visualized. 
 
-          Published at the Mensch und Computer 2022. Read the [Paper](https://dl.acm.org/doi/10.1145/3543758.3547567) here.
+          Published at the Mensch und Computer Conference 2022. Read the [Paper](https://dl.acm.org/doi/10.1145/3543758.3547567) here.
       - layout: left
         border: weak  
-        title: TecAlliance - HoloLens Garage Support
-        subtitle: Work project
+        title: HoloLens Garage Support
+        title_link: Work project at TecAlliance
         additional_links:
           - title: Teaser video of the developed HoloLens application
             icon: fab fa-youtube
@@ -125,7 +125,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: University of Würzburg
+        title: University of Würzburg, <br> Würzburg
         sub_title: Research Assistant
         caption: November 2021 - present
         link: https://www.hci.uni-wuerzburg.de/
@@ -134,7 +134,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Working in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) project and focussing on research about different locomotion techniques and their effect on other participants within a social XR.
       - layout: left
-        title: TecAlliance, Weikersheim
+        title: TecAlliance, <br> Würzburg
         sub_title: Working student
         caption: March 2020 - October 2021
         link: https://www.tecalliance.net/de/
@@ -143,7 +143,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           HoloLens2 development & machine learning e.g. different [YOLO](https://arxiv.org/abs/1506.02640) architectures and image recognition via [Google cloud vision](https://cloud.google.com/vision?hl=en) and [Microsoft custom vision](https://www.customvision.ai/) 
       - layout: left
-        title: Audi, Ingolstadt
+        title: Audi, <br> Würzburg
         sub_title: Internship
         caption: April 2019 - September 2019
         link: https://www.audi.de/de/brand/de.html
@@ -152,7 +152,7 @@ content:
         description: | # this will include new lines to allow paragraphs
          Collaboration in the project: [Virtual 3P Workshops in Virtual Reality](https://automanager.tv/?p=13349). Creation of an automated python based data conversion pipeline for CAD data to be used in virtual reality applications. Admission to the Audi Talent Program for students.
       - layout: left
-        title: Unversity of Würzburg
+        title: Unversity of Würzburg, <br> Würzburg
         sub_title: Working Student
         caption: August 2018 - March 2019
         link: https://www.hci.uni-wuerzburg.de/
@@ -171,7 +171,9 @@ content:
           Master of Science in Human-Computer-Interaction.
         description: | # this will include new lines to allow paragraphs
            Principles of real-time interactive systems, Psychology of real-time interactive systems, Machine Learning, Theorys of HCI, Eye-tracking, Advanced methods of data analysis, Networking and Concurrent Programming, 3D User-interfaces, Multimodal Interactions. <br>
+           
            Master Thesis: Stress Generation and Social Ostracism with Teenagers in Virtual Reality - Implementation and Evaluation of an Interactive Therapeutic VR Application supervised by Prof. Dr. Carolin Wienrich and Prof. Dr. Marc Erich Latoschik. - *currently under assessment* <br>
+           
            Grade: *Preliminary*: 1.3
       - layout: left
         title: University of Würzburg
@@ -181,7 +183,9 @@ content:
           Bachelor of Science in Human-Computer-Systems.
         description: | # this will include new lines to allow paragraphs
            Introduction to Programming, Algorithms and Data structures, Interactive Computergraphic, Introduction to Human-Computer-Interaction, Research Methods, Statistics, Augmented Reality and User Research. <br> 
+           
            Bachelor Thesis: Influence of cognitive load on Simulator sickness in a simulated autonomous driving supervised by Prof. Dr. Carolin Wienrich. Grade: 1.3 <br>
+           
            Grade: 2.2        
   - title: A Little More About Me
     layout: text
