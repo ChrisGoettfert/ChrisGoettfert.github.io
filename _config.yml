@@ -50,11 +50,11 @@ orcid_username: 0000-0002-6959-093X
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/le-me.jpg
+about_profile_image: images/me-cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Christopher Göttfert and I'm currently working as a research assistant at the Human-Computer-Interaction (HCI) and Psychology of intelligent interactive systems (PIIS) Group at the University of Würzburg. <br>
 
-  I work in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) Project, which focuses on digital participation in social XR environments. The project is developing and evaluating different solutions for markerless tracking of bodies and faces, as well as participation via different devices. <br>
+  I work in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) Project, which focuses on device and tracking system independent participation in a social XR application. <br>
   
   My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. <br>
   
@@ -69,9 +69,9 @@ content:
     content:
       - layout: left
         border: weak  
-        title: Research project
+        title: HiAvA
+        subtitle: Resaerch project @ JMU Würzburg
         link: https://www.hci.uni-wuerzburg.de/projects/hiava/
-        link_text: Development and research
         quote: >
           HiAvA - Scalable Hybrid Avatar-Agents-Technology for Everyday Social Interaction in XR
         description: | # this will include new lines to allow paragraphs
@@ -80,7 +80,8 @@ content:
           My responsibilities lie in the project organization, development of the platform as well as the impact research of various social XR factors.
       - layout: left
         border: weak  
-        title: Student project
+        title: Mirror Exposure Gaze Analyzer
+        subtitle: Student project
         additional_links:
           - title:  Github page for project
             icon: fab fa-github
@@ -93,10 +94,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Creation of an automated evaluation pipeline in Python to evaluate data of a mirror exposure in a short time. Based on measured body sizes of a test person, areas of interest are automatically generated and fixations on them are measured and visualized. 
 
-          Published at the Mensch und Computer 2022. Read the [Paper](https://downloads.hci.informatik.uni-wuerzburg.de/2022-muc-eyetracking_in_mirror_exposition-preprint.pdf) here.
+          Published at the Mensch und Computer 2022. Read the [Paper](https://dl.acm.org/doi/10.1145/3543758.3547567) here.
       - layout: left
         border: weak  
-        title: Work project
+        title: TecAlliance - HoloLens Garage Support
+        subtitle: Work project
         additional_links:
           - title: Teaser video of the developed HoloLens application
             icon: fab fa-youtube
@@ -105,9 +107,11 @@ content:
           Implementation of an Unity application for the HoloLens2 to support automotive mechanics in workshops. 
         description: | # this will include new lines to allow paragraphs
           Development of an Unity application to support mechanics in a workshop scenario. We used computer vision to recognize parts, text recognition to read out codes, and various interaction options and user interfaces. 
+      
       - layout: left
         border: weak  
-        title: Student project
+        title: 3D User Interfaces course project
+        subtitle: Student project
         additional_links:
           - title: Teaser video of my application for the 3D User Interfaces course
             icon: fab fa-youtube
@@ -130,16 +134,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           Working in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) project and focussing on research about different locomotion techniques and their effect on other participants within a social XR.
       - layout: left
-        title: TecAlliance
+        title: TecAlliance, Weikersheim
         sub_title: Working student
         caption: March 2020 - October 2021
         link: https://www.tecalliance.net/de/
         quote: >
           Working student in the Research & Innovation Team at TecAlliance. 
         description: | # this will include new lines to allow paragraphs
-          HoloLens2 development & machine learning e.g. YOLO and image recognition
+          HoloLens2 development & machine learning e.g. different [YOLO](https://arxiv.org/abs/1506.02640) architectures and image recognition via [Google cloud vision](https://cloud.google.com/vision?hl=en) and [Microsoft custom vision](https://www.customvision.ai/) 
       - layout: left
-        title: Audi
+        title: Audi, Ingolstadt
         sub_title: Internship
         caption: April 2019 - September 2019
         link: https://www.audi.de/de/brand/de.html
@@ -167,8 +171,8 @@ content:
           Master of Science in Human-Computer-Interaction.
         description: | # this will include new lines to allow paragraphs
            Principles of real-time interactive systems, Psychology of real-time interactive systems, Machine Learning, Theorys of HCI, Eye-tracking, Advanced methods of data analysis, Networking and Concurrent Programming, 3D User-interfaces, Multimodal Interactions. <br>
-           Master Thesis: Stress Generation and Social Ostracism with Teenagers in Virtual Reality - Implementation and Evaluation of an Interactive Therapeutic VR Application supervised by Prof. Dr. Carolin Wienrich and Prof. Dr. Marc Erich Latoschik. <br>
-           Grade: 1.3
+           Master Thesis: Stress Generation and Social Ostracism with Teenagers in Virtual Reality - Implementation and Evaluation of an Interactive Therapeutic VR Application supervised by Prof. Dr. Carolin Wienrich and Prof. Dr. Marc Erich Latoschik. - *currently under assessment* <br>
+           Grade: *Preliminary*: 1.3
       - layout: left
         title: University of Würzburg
         sub_title: Bachelor of Science
@@ -177,7 +181,7 @@ content:
           Bachelor of Science in Human-Computer-Systems.
         description: | # this will include new lines to allow paragraphs
            Introduction to Programming, Algorithms and Data structures, Interactive Computergraphic, Introduction to Human-Computer-Interaction, Research Methods, Statistics, Augmented Reality and User Research. <br> 
-           Bachelor Thesis: Influence of cognitive load on Simulator sickness in a simulated autonomous driving supervised by Prof. Dr. Carolin Wienrich. <br>
+           Bachelor Thesis: Influence of cognitive load on Simulator sickness in a simulated autonomous driving supervised by Prof. Dr. Carolin Wienrich. Grade: 1.3 <br>
            Grade: 2.2        
   - title: A Little More About Me
     layout: text
