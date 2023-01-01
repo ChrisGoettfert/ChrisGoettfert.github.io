@@ -16,7 +16,7 @@ email: Chrisi.Goettfert@gmail.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
@@ -59,6 +59,13 @@ about_content: | # this will include new lines to allow paragraphs
   My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. <br>
   
   Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg.
+
+  The things that I currently have the most experience working with are: 
+  <mark>VR/AR/XR</mark>, 
+  <mark>Unity Development</mark>, 
+  <mark>C#</mark>, 
+  <mark>Python</mark> and
+  <mark>Real-time Interactive Systems </mark>. 
   
 
 
@@ -90,7 +97,7 @@ content:
             icon: fab fa-youtube
             url: https://www.youtube.com/watch?v=z6zgy7hokIg 
         quote: >
-          Implementation of an automatic framework to investigate eye-tracking data in a mirror exposure. 
+          Implementation of an automatic framework to analyze eye-tracking data in a mirror exposure. 
         description: | # this will include new lines to allow paragraphs
           Creation of an automated evaluation pipeline in Python to evaluate data of a mirror exposure in a short time. Based on measured body sizes of a test person, areas of interest are automatically generated and fixations on them are measured and visualized. 
 
@@ -117,7 +124,7 @@ content:
             icon: fab fa-youtube
             url: https://www.youtube.com/watch?v=wwXwdwRLo9U
         quote: >
-          Implementation of an Unity VR for the Oculus Rift with basic VR interaction modalities. 
+          Implementation of an Unity VR for the Oculus Rift S with basic VR interaction modalities such as locomotion, raycast interaction, object interaction, teleportation and more. 
         description: | # this will include new lines to allow paragraphs
 
 
@@ -132,7 +139,7 @@ content:
         quote: >
           Research Assistant at the HCI Chair at the University of Würzburg.
         description: | # this will include new lines to allow paragraphs
-          Working in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) project and focussing on research about different locomotion techniques and their effect on other participants within a social XR.
+          Working in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) project and focusing on the development of the system platform for different end devices (VR-HMDs, iPhones and Desktops) as well as integration work of features of the other project partners and research about different locomotion techniques and their effect on other participants within a social XR.
       - layout: left
         title: TecAlliance, <br> Würzburg
         sub_title: Working student
@@ -150,7 +157,8 @@ content:
         quote: >
           Internship at Audi Production Lab as a software developer in virtual/augmented reality. 
         description: | # this will include new lines to allow paragraphs
-         Collaboration in the project: [Virtual 3P Workshops in Virtual Reality](https://automanager.tv/?p=13349). Creation of an automated python based data conversion pipeline for CAD data to be used in virtual reality applications. Admission to the Audi Talent Program for students.
+         Collaboration in the project: [Virtual 3P Workshops in Virtual Reality](https://automanager.tv/?p=13349). Creation of an automated python based data conversion pipeline for CAD data to be used in virtual reality applications. <br> 
+         Admission to the Audi Talent Program for students.
       - layout: left
         title: Unversity of Würzburg, <br> Würzburg
         sub_title: Working Student
