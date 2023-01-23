@@ -6,7 +6,7 @@ favicon: images/cg-logo-v1.png
 version: 2
 
 # Personal info
-name: Christopher Göttfert 
+name: Christopher Göttfert, M.Sc. 
 title: Research Assistant
 email: Chrisi.Goettfert@gmail.com
 # email_title: Email (Email title override)
@@ -58,7 +58,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. <br>
   
-  Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg.
+  Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg and received a Master and Bachelor of Science Degree.
 
   The things that I currently have the most experience working with are: 
   <mark>VR/AR/XR</mark>, 
