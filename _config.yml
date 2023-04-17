@@ -150,7 +150,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           HoloLens2 development & machine learning e.g. different [YOLO](https://arxiv.org/abs/1506.02640) architectures and image recognition via [Google cloud vision](https://cloud.google.com/vision?hl=en) and [Microsoft custom vision](https://www.customvision.ai/) 
       - layout: left
-        title: Audi, <br> Würzburg
+        title: Audi, <br> Ingolstadt
         sub_title: Internship
         caption: April 2019 - September 2019
         link: https://www.audi.de/de/brand/de.html
