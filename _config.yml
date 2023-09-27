@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Christopher Göttfert, M.Sc. 
-title: Research Assistant
-email: Chrisi.Goettfert@gmail.com
+title: XR Developer & AI Enthusiast 
+email: Chrisi.Goettfert(at)gmail.com
 # email_title: Email (Email title override)
 # phone: 
 # phone_title: Phone (Phone title override)
@@ -52,13 +52,11 @@ orcid_username: 0000-0002-6959-093X
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/me-cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Christopher Göttfert and I'm currently working as a research assistant at the Human-Computer-Interaction (HCI) and Psychology of intelligent interactive systems (PIIS) Group at the University of Würzburg. <br>
+  Hi, my name is Christopher Göttfert and I'm currently working as an XR Developer at Mercedes-Benz AG. <br>
 
-  I work in the [HiAvA](https://www.hci.uni-wuerzburg.de/projects/hiava/) Project, which focuses on device and tracking system independent participation in a social XR application. <br>
+  I work on XR Unity applications am the Product Owner for Mixed Reality Applications for digital after-sales. <br>
   
-  My research focuses on various locomotion techniques as well as the effect on other participants within a social XR. <br>
-  
-  Previously, I studied Human-Computer Systems and Human-Computer Interaction at the University of Würzburg and received a Master and Bachelor of Science Degree.
+  Previously, I completed a Master of Science degree in Human-Computer-Interaction and was working as a Research Assistant at the University of Würzburg.
 
   The things that I currently have the most experience working with are: 
   <mark>VR/AR/XR</mark>, 
@@ -131,10 +129,19 @@ content:
   - title: Experience
     layout: list
     content:
+     -  layout: left
+        title: Mercedes-Benz, <br> Stuttgart
+        sub_title: XR Developer
+        caption: August 2023 - present
+        link: https://www.mercedes-benz.de/passengercars.html?subgroup=see-all&group=all&view=BODYTYPE
+        quote: >
+          XR Developer for the digital after-sales.
+        description: | # this will include new lines to allow paragraphs
+          Developing XR applications for the digital after-sales. Additionally, I serve as the product owner for a rolled-out mixed-reality application designed to enhance the repair process by providing MR visualizations that support the technician.
       - layout: left
         title: University of Würzburg, <br> Würzburg
         sub_title: Research Assistant
-        caption: November 2021 - present
+        caption: November 2021 - June 2023
         link: https://www.hci.uni-wuerzburg.de/
         quote: >
           Research Assistant at the HCI Chair at the University of Würzburg.
