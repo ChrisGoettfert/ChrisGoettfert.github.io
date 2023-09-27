@@ -130,13 +130,13 @@ content:
     layout: list
     content:
       -  layout: left
-        title: Mercedes-Benz, <br> Stuttgart
-        sub_title: XR Developer
-        caption: August 2023 - present
-        link: https://www.mercedes-benz.de/passengercars.html?subgroup=see-all&group=all&view=BODYTYPE
-        quote: >
+         title: Mercedes-Benz, <br> Stuttgart
+         sub_title: XR Developer
+         caption: August 2023 - present
+         link: https://www.mercedes-benz.de/passengercars.html?subgroup=see-all&group=all&view=BODYTYPE
+         quote: >
           XR Developer for the digital after-sales.
-        description: | # this will include new lines to allow paragraphs
+         description: | # this will include new lines to allow paragraphs
           Developing XR applications for the digital after-sales. Additionally, I serve as the product owner for a rolled-out mixed-reality application designed to enhance the repair process by providing MR visualizations that support the technician.
       - layout: left
         title: University of Würzburg, <br> Würzburg
