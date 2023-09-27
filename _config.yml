@@ -129,7 +129,7 @@ content:
   - title: Experience
     layout: list
     content:
-     -  layout: left
+      -  layout: left
         title: Mercedes-Benz, <br> Stuttgart
         sub_title: XR Developer
         caption: August 2023 - present
